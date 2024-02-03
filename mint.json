@@ -1,30 +1,35 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Dub.co Docs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logos/logotype-dark.svg",
+    "light": "/logos/logotype.svg",
+    "href": "https://dub.co"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logos/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#9563FF",
+    "light": "#AE87FF",
+    "dark": "#0D001D",
+    "background": {
+      "dark": "#090014"
+    },
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#FF7F57",
+      "to": "#9563FF"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@dub.co"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://app.dub.co"
   },
+  "openapi": "https://api.dub.sh",
   "tabs": [
     {
       "name": "API Reference",
@@ -35,57 +40,82 @@
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "introduction"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "API Reference",
+      "icon": "rectangle-terminal",
+      "url": "api-reference"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Help Center",
+      "icon": "question",
+      "url": "https://dub.co/help"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/dubinc/dub"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Getting Started",
+      "pages": ["introduction", "local-development", "self-hosting/guide"]
+    },
+    {
+      "group": "Integrations",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "integrations/zapier",
+        "integrations/pipedream",
+        "integrations/make",
+        "integrations/raycast"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "API Reference",
+      "pages": ["api-reference/introduction", "api-reference/rate-limits"]
+    },
+    {
+      "group": "Links",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "api-reference/endpoint/create-a-new-link",
+        "api-reference/endpoint/retrieve-a-link",
+        "api-reference/endpoint/edit-a-link",
+        "api-reference/endpoint/delete-a-link",
+        "api-reference/endpoint/retrieve-a-list-of-links",
+        "api-reference/endpoint/bulk-create-links"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "QR Codes",
+      "pages": ["api-reference/endpoint/retrieve-a-qr-code"]
+    },
+    {
+      "group": "Projects",
       "pages": [
-        "api-reference/introduction"
+        "api-reference/endpoint/retrieve-a-project",
+        "api-reference/endpoint/retrieve-a-list-of-projects"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Tags",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/create-a-new-tag",
+        "api-reference/endpoint/retrieve-a-list-of-tags"
       ]
     }
   ],
+  "api": {
+    "maintainOrder": true
+  },
+  "feedback": {
+    "thumbsRating": true
+  },
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/dubdotco",
+    "github": "https://github.com/steven-tey/dub",
+    "linkedin": "https://www.linkedin.com/company/dubhq",
+    "website": "https://dub.co"
   }
 }

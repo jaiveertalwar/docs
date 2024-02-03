@@ -1,71 +1,58 @@
 ---
 title: Introduction
-description: 'Welcome to the home of your new documentation'
+description: "Dub.co is the open-source link management infrastructure for modern marketing teams."
 ---
 
+{/* src="/images/thumbnail.png" */}
+
 <img
-  className="block dark:hidden"
-  src="/images/hero-light.svg"
-  alt="Hero Light"
-/>
-<img
-  className="hidden dark:block"
-  src="/images/hero-dark.svg"
-  alt="Hero Dark"
+  className="rounded-lg border border-gray-100"
+  src="https://dub.co/_static/thumbnail.png"
+  alt="Dub.co Thumbnail"
 />
 
-## Setting up
+## Features
 
-The first step to world-class documentation is setting up your editing environments.
+Here are some of the features that Dub offers:
+
+- [Advanced Analytics](https://dub.co/features/analytics)
+- [Branded Links](https://dub.co/features/branded-links)
+- [QR Codes](https://dub.co/features/qr-codes)
+- [Personalization](https://dub.co/features/personalization)
+- [Team Collaboration](https://dub.co/features/collaboration)
+
+## Tech Stack
+
+Dub's codebase is [fully open-source](https://dub.sh/github) and is built on top of the following technologies:
+
+- [Next.js](https://nextjs.org/) – framework
+- [TypeScript](https://www.typescriptlang.org/) – language
+- [Tailwind](https://tailwindcss.com/) – CSS
+- [Upstash](https://upstash.com/) – redis
+- [Tinybird](https://tinybird.com/) – analytics
+- [PlanetScale](https://planetscale.com/) – database
+- [NextAuth.js](https://next-auth.js.org/) – auth
+- [BoxyHQ](https://boxyhq.com/enterprise-sso) – SSO/SAML
+- [Turborepo](https://turbo.build/repo) – monorepo
+- [Stripe](https://stripe.com/) – payments
+- [Resend](https://resend.com/) – emails
+- [Vercel](https://vercel.com/) – deployments
+
+## Getting Started
+
+To get started with Dub, you can do any of the following:
 
 <CardGroup cols={2}>
-  <Card
-    title="Edit Your Docs"
-    icon="pen-to-square"
-    href="https://mintlify.com/docs/quickstart"
-  >
-    Get your docs set up locally for easy development
+  <Card title="Create a free account" icon="code" href="https://app.dub.co">
+    Create a free account to get started with Dub
   </Card>
-  <Card
-    title="Preview Changes"
-    icon="image"
-    href="https://mintlify.com/docs/development"
-  >
-    Preview your changes before you push to make sure they're perfect
+  <Card title="Try our API" icon="code" href="/api-reference/introduction">
+    Learn how to use Dub's API to create and manage links programmatically
   </Card>
-</CardGroup>
-
-## Make it yours
-
-Update your docs to your brand and add valuable content for the best user conversion.
-
-<CardGroup cols={2}>
-  <Card
-    title="Customize Style"
-    icon="palette"
-    href="https://mintlify.com/docs/settings/global"
-  >
-    Customize your docs to your company's colors and brands
+  <Card title="Self-host Dub" icon="building" href="/self-hosting/guide">
+    Learn how to self-host Dub for greater control and privacy
   </Card>
-  <Card
-    title="Reference APIs"
-    icon="code"
-    href="https://mintlify.com/docs/api-playground/openapi"
-  >
-    Automatically generate endpoints from an OpenAPI spec
-  </Card>
-  <Card
-    title="Add Components"
-    icon="screwdriver-wrench"
-    href="https://mintlify.com/docs/components/accordion"
-  >
-    Build interactive features and designs to guide your users
-  </Card>
-  <Card
-    title="Get Inspiration"
-    icon="stars"
-    href="https://mintlify.com/showcase"
-  >
-    Check out our showcase of our favorite documentation
+  <Card title="Integrate with Dub" icon="circle-nodes" href="/integrations">
+    Learn how to integrate Dub with your favorite tools
   </Card>
 </CardGroup>
