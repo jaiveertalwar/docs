@@ -1,10 +1,10 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Dub.co Docs",
+  "name": "QCKL Docs",
   "logo": {
     "dark": "/logos/logotype-dark.svg",
     "light": "/logos/logotype.svg",
-    "href": "https://dub.co"
+    "href": "https://qckl.online"
   },
   "favicon": "/logos/favicon.png",
   "colors": {
@@ -22,14 +22,14 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:support@dub.co"
+      "url": "https://help.qckl.online"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://app.dub.co"
+    "url": "https://app.qckl.online"
   },
-  "openapi": "https://api.dub.sh",
+  "openapi": "https://api.qckl.online",
   "tabs": [
     {
       "name": "API Reference",
@@ -50,12 +50,7 @@
     {
       "name": "Help Center",
       "icon": "question",
-      "url": "https://dub.co/help"
-    },
-    {
-      "name": "GitHub",
-      "icon": "github",
-      "url": "https://github.com/dubinc/dub"
+      "url": "https://help.qckl.online"
     }
   ],
   "navigation": [
@@ -113,9 +108,6 @@
     "thumbsRating": true
   },
   "footerSocials": {
-    "twitter": "https://twitter.com/dubdotco",
-    "github": "https://github.com/steven-tey/dub",
-    "linkedin": "https://www.linkedin.com/company/dubhq",
-    "website": "https://dub.co"
+    "website": "https://app.qckl.online"
   }
 }
