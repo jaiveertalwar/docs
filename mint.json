@@ -29,7 +29,7 @@
     "name": "Dashboard",
     "url": "https://app.qckl.online"
   },
-  "openapi": "https://api.qckl.online",
+  "openapi": "https://openapi.qckl.online/i.json",
   "tabs": [
     {
       "name": "API Reference",
